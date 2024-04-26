@@ -1,0 +1,31 @@
+body {
+    background-color: powderblue;
+  }
+ 
+  .banner {
+    position: relative;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido_main {
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.contenido_main h1{
+    font-size: 3rem;
+    line-height: 0rem;
+}
+
+.contenido_main h2{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.contenido_main h1 {
+    color: blue;
+  }
